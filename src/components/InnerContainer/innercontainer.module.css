@@ -1,0 +1,13 @@
+.innerContainer {
+  flex: 1;
+  padding: 2rem;
+  margin: 1rem auto;
+  background-color: #00adb520; /* #00adb5 renginin %12 opacity ile transparan hali */
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 173, 181, 0.3); /* Renkli ama hafif gölge */
+  box-sizing: border-box;
+  max-width: 800px;
+  width: 90%;
+  transition: all 0.3s ease;
+  color: #fff; /* Eğer içindeki yazılar görünmüyorsa */
+}

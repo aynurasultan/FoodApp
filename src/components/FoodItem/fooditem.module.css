@@ -1,0 +1,62 @@
+.itemContainer {
+  width: 90%;
+  max-width: 300px;
+  border-radius: 1vw;
+  box-shadow: 0 0.4vh 0.6vh rgba(0, 0, 0, 0.3); /* Navbar gölgesine biraz yakın */
+  margin: 2vh auto;
+  overflow: hidden;
+  font-family: Polysans, sans-serif;
+  background: linear-gradient(
+    135deg,
+    #2f343d,
+    #009aa2
+  ); /* Navbar gradientine yakın ama biraz daha yumuşak */
+  color: #e0f7fa; /* Açık mavi ton, kontrast için */
+  transition: transform 0.3s ease;
+}
+
+.itemContainer:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.8vh 1vh rgba(0, 0, 0, 0.5);
+}
+
+.itemImage {
+  max-width: 100%;
+  height: auto;
+  border-bottom: 1px solid #00adb5; /* Navbar renginden ince bir çizgi */
+}
+
+.itemContent {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 1vh 1vw;
+}
+
+.itemName {
+  font-size: 1.7vw;
+  font-weight: 600;
+  color: #d0f0f8;
+  margin-bottom: 1vh;
+}
+.itemButton {
+  background-color: #00adb5;
+  border: none;
+  color: white;
+  padding: 1.5vh 3vw;
+  font-size: 1.4vw;
+  cursor: pointer;
+  border-radius: 1vw;
+  box-shadow: 0 3px 6px rgba(0, 173, 181, 0.5);
+  transition: background-color 0.3s ease;
+}
+.itemButton:hover {
+  background-color: #007f89; /* Hoverda biraz koyu */
+}
+
+.buttonContainer {
+  margin: 2vh auto;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+}

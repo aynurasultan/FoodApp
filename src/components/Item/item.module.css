@@ -1,0 +1,29 @@
+.imageContainer {
+  width: 10vw; /* Width adjusted according to screen width */
+  height: 10vw; /* Height adjusted according to screen width */
+  min-width: 60px; /* Minimum width set */
+  min-height: 60px; /* Minimum height set */
+  border-radius: 1vw; /* Adjust corner rounding ratio according to screen width */
+  overflow: hidden; /* Hide content if it overflows */
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 2vw; /* Adjust corner rounding ratio according to screen width */
+}
+
+.nameContainer {
+  margin-left: 4vw; /* Adjust left margin according to screen width */
+  flex: 1; /* Fill available space */
+}
+
+.name {
+  font-size: 2.5vw; /* Adjust font size according to screen width */
+  font-weight: bold;
+}
+
+.amount {
+  font-weight: bold;
+  margin-top: 2vh; /* Adjust top margin according to screen height */
+}

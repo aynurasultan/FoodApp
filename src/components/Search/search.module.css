@@ -1,0 +1,58 @@
+.searchContainer {
+  margin: 5vh auto;
+  width: 90%;
+  max-width: 550px;
+  position: relative;
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.search {
+  width: 95%;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+  background-color: #00adb5;
+  background-color: rgba(0, 173, 181, 0.7);
+}
+
+.search:focus {
+  border-color: #5eaaa8;
+  box-shadow: 0 0 0 3px rgba(94, 170, 168, 0.2);
+}
+
+.search::placeholder {
+  color: #aaa;
+  font-style: italic;
+}
+
+/* Mobil uyumlu font boyutu */
+@media (max-width: 600px) {
+  .search {
+    font-size: 0.95rem;
+    padding: 0.65rem 0.9rem;
+  }
+}
+.listItem {
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  padding: 12px 18px;
+  margin: 10px 0;
+  border-radius: 12px;
+  font-weight: 600;
+  color: white;
+  box-shadow: 0 4px 12px rgba(37, 117, 252, 0.6);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.listItem:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(37, 117, 252, 0.9);
+  background: linear-gradient(135deg, #2575fc 0%, #6a11cb 100%);
+}
