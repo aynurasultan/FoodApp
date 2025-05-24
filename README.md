@@ -1,13 +1,25 @@
-# React + Vite
+# Food Recipe Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a food recipe search application where users can search for various recipes, and view detailed information about the selected recipe including ingredients, cooking time, servings, and step-by-step instructions. The data is fetched from the Spoonacular API.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Recipe Search:** Search for recipes by typing the name of a dish. 🍲
+- **Recipe List:** View a list of recipes matching your search. 📋
+- **Detailed Recipe View:** See ingredients, preparation time, servings, and step-by-step cooking instructions of the selected recipe. 🍳
+- **Responsive Design:** Works smoothly on mobile, tablet, and desktop devices. 📱
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# FoodApp
+- **React:** For building user interface components. ⚛️
+- **CSS Modules:** For scoped and modular styling. 🎨
+- **JavaScript (ES6+):** For application logic and API communication. 🖥️
+- **Spoonacular API:** To provide recipe and ingredient data. 🍽️
+
+## 📱 Responsive Design
+
+The app is designed to provide a seamless user experience across all devices.
+
+## 🔍 Preview
+
+![Food Recipe App Preview](./foodapp.gif)
